@@ -11,3 +11,10 @@ monitoring.ui.container.elasticsearch.enabled: true
 #
 elasticsearch.username: elastic
 elasticsearch.password: changeme
+
+
+server.ssl.enabled: false
+xpack.encryptedSavedObjects.encryptionKey: 1xt7mz1Gca5qs6SL1Mj9dxJHO7My8hk1Se2sdY1UGn1bv1s3XcWlqQ1Ck=
+xpack.actions.enabled: true
+# xpack.actions.allowedHosts: [ "http://127.0.0.1:8082/healthMonitor" ]
+# xpack.actions.enabledActionTypes: [".webhook"]
