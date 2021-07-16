@@ -12,4 +12,6 @@ xpack.license.self_generated.type: trial
 xpack.security.enabled: false
 xpack.monitoring.collection.enabled: true
 
-xpack.security.http.ssl.enabled: false
+
+xpack.security.http.ssl.enabled: true
+xpack.security.http.ssl.keystore.path: /usr/share/elasticsearch/config/http.p12
